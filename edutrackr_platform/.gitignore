@@ -1,0 +1,39 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+.env
+staticfiles/
+media/
+.DS_Store
+.idea/
+logs/
+*.log
+
+# ML Models (trained models, generated at runtime)
+ml_models/
+*.pkl
+
+# Test coverage
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+test_output.txt
+.vscode/
+
+# Personal files
+*.tex
+*.pdf
+Resume_*
+
+# Temporary Claude/AI assistant files
+tmpclaude-*  
